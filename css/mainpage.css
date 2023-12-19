@@ -1,0 +1,132 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style for the navbar items */
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* Change the color of the navbar items on hover */
+ul.navbar li a:hover {
+    background-color: #185ed5;
+}
+
+.topnav-right {
+    float: right;
+    margin-top: 18px;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    margin-right: 960px;
+}
+p1 {
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    display: inline-block;
+    border: 4px double rgb(255, 255, 255);
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 40em;
+    margin: 0 0 0 -20em;
+}
+
+p1 span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px white;
+    font-size: x-large;
+}
+body {
+    font: 400 1em/1.5 "Neuton";
+    color: rgb(255, 255, 255);
+    background-image: url("../images/backgroundimg.jpg");
+    text-align: center;
+    margin: 0;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Adjust the gap between images as needed */
+  }
+
+  .image-item {
+    width: 100%; /* Make each image item 100% wide within its grid cell */
+    padding: 5px; /* Add some padding for spacing */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    text-align: center; /* Center the caption text */
+  }
+
+  .image-item img {
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    width: 100%; /* Make all images the same width */
+  }
+
+  .image-caption {
+    margin-top: 5px; /* Add some space between the image and caption */
+    font-weight: bold; /* Make the caption text bold (optional) */
+    color: aliceblue;
+  }
+  .footer {
+    color: whitesmoke;
+    padding: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 86rem;
+}
+
+.compartment {
+    flex: 1;
+    padding: 10px;
+}
+
+.compartment h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.compartment ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.compartment ul li {
+    margin-bottom: 5px;
+}
+
+.compartment a {
+    color: white;
+    text-decoration: none;
+}
+
+.compartment p {
+    margin: 0;
+    text-align: center;
+}

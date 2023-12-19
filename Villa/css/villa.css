@@ -1,0 +1,229 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style for the navbar items */
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* Change the color of the navbar items on hover */
+ul.navbar li a:hover {
+    background-color: #555;
+}
+
+.topnav-right {
+    float: right;
+    margin-top: 18px;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    margin-right: 960px;
+}
+p1 {
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    display: inline-block;
+    border: 4px double rgb(255, 255, 255);
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 40em;
+    margin: 0 0 0 -20em;
+}
+
+p1 span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px white;
+    font-size: x-large;
+}
+body {
+    font: 400 1em/1.5 "Neuton";
+    background-image: url("../../images/backgroundimg.jpg");
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.description {
+    text-align: center;
+    color: aliceblue;
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style for the navbar items */
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* Change the color of the navbar items on hover */
+ul.navbar li a:hover {
+    background-color: #555;
+}
+
+.topnav-right {
+    float: right;
+    margin-top: 18px;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    margin-right: 960px;
+}
+p1 {
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    display: inline-block;
+    border: 4px double rgb(255, 255, 255);
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 40em;
+    margin: 0 0 0 -20em;
+}
+
+p1 span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px white;
+    font-size: x-large;
+}
+body {
+    font: 400 1em/1.5 "Neuton";
+    background: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 45%; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: skyblue;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+

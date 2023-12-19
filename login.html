@@ -1,0 +1,31 @@
+<html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <style>
+         body {
+            background-image: url('images/background2.jpg');
+            background-size: cover; /* Adjust as needed */
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* This keeps the image fixed as the user scrolls */
+        }
+    </style>
+</head>
+<body>
+
+<ul class="navbar">
+    <image src="images/logo.png" class="logo">
+    <div class="topnav-right">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="Registration.html  ">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </div>
+</ul>
+<form class="form" action = "php/login.php" method="post">
+    <h1 class="login-title">Login</h1>
+    <input type="text" class="login-input" name="username" placeholder="Username" autofocus="true"/>
+    <input type="password" class="login-input" name="password" placeholder="Password"/>
+    <input type="submit" value="Login" name="submit" class="login-button"/>
+    <p class="link">Don't have an account? <a href="register.html">Registration Now</a></p>
+</form>
+
